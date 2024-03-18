@@ -1,0 +1,40 @@
+* {
+  cursor: none;
+}
+
+.memo {
+  width: 100%;
+  height: 33%;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  position: relative;
+  overflow: hidden;
+}
+
+.memo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: antiquewhite;
+  z-index: -1; /* Moves the pseudo-element behind the content */
+  transition: width 0.3s ease; /* Transition width property */
+}
+
+.memo:hover {
+  color: black;
+  padding-left: 5%;
+}
+
+.memo:hover::after {
+  width: 100%;
+}
+
+.outro {
+  height: 100vh;
+  width: 100%;
+  clip-path: polygon(0px 0px, 100% 0px, 100% 70%, 100% 100%, 0px 100%, 0px 70%);
+  transition: 1s;
+}

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+
+    <title>Resurgence of the Homeland</title>
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div class="w-screen h-screen bg-white z-[999] loader px-12 py-6 fixed top-0 left-0 flex items-end ">
+        <h1 class="text-[10vw] font-black">100</h1>
+    </div>
+    <div
+    id="cursor"
+    class="cursor w-4 h-4 rounded-full bg-zinc-100 fixed -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+  ></div>
+    <div id="main" class="bg-[#171615] text-white">
+      <div
+        id="header"
+        class="w-full h-[55vh] bg-[#171615] text-white flex flex-col justify-between p-5"
+      >
+        <div id="nav" class="flex items-center justify-between relative w-full h-[2vw]">
+          <h1 class="text-lg">Museums for the 21st Century</h1>
+          <h1 class="text-lg">(Uruguay)</h1>
+          <h1 class="text-lg">(Juan Manuel Blanes)</h1>
+        </div>
+        <div>
+            <div class="overflow-hidden">
+                <h1
+                class="text-[8.9vw] font-[600] uppercase tracking-tighter leading-[6vw] head"
+              >
+                resurgence of
+              </h1>
+            </div>
+            <div class="overflow-hidden">
+                <h1
+                class="text-[8.9vw] font-[600] uppercase tracking-tighter leading-[8.5vw] head"
+              >
+                the homeland
+              </h1>
+            </div>
+         
+          
+        </div>
+      </div>
+      <div id="hero" class="w-full h-[130vh]">
+        <!-- hero__img section ----------------- -->
+
+        <div class="hero_div h-full relative overflow-hidden">
+          <img
+            src="./img1.png"
+            alt=""
+            class=" w-full h-full object-cover object-center origin-[40%_50%]"
+          />
+          <div
+            class="hero_div --center w-full h-1/3 overflow-hidden absolute top-1/2 left-0 -translate-y-1/2"
+          >
+            <img
+              src="./img1.png"
+              alt=""
+              class="w-full h-full object-cover object-center origin-[80%_50%]"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- year anim ---- -->
+      <div class="year_div_container w-full flex items-end mb-32">
+        <div
+          class="flex flex-row w-fit h-[9em] text-[2vw] font-medium leading-none overflow-hidden"
+        >
+          <div
+            class="year_anim text-[10em] flex flex-col items-center tracking-tighter"
+          >
+            <div>0</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+          </div>
+          <div class="year_anim text-[10em] flex flex-col items-center">
+            <div>0</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+          </div>
+          <div class="year_anim text-[10em] flex flex-col items-center">
+            <div>0</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+          </div>
+          <div class="year_anim text-[10em] flex flex-col items-center">
+            <div>0</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+          </div>
+        </div>
+        <h1 class="font-semibold text-3xl ml-16">(Date of artwork)</h1>
+      </div>
+
+      <div data-scroll class="intro w-full h-[50vh] py-20 p-5 relative">
+        <div class="w-full h-[30vh] flex relative">
+          <h1
+            data-scroll
+            data-scroll-speed="-2.8"
+            data-scroll-direction="vertical"
+            class="text-3xl w-1/2 absolute"
+          >
+            (0) Introduction
+          </h1>
+          <h1 class="w-1/2 left-[50%] top-[-32%] text-3xl absolute">
+            The title of the work itself speaks of a Resurgence of the Homeland,
+            a rebirth, but in this case, in a new form under a riverist national
+            state project, in contrast to the concept of a grand homeland
+            proclaimed by Artigas, under a federal, inclusive, and intercultural
+            model, representative of rights, territorial sovereignty, and
+            identity sovereignty. It also represents the people as a temporal
+            rather than spatial identity, a concept rooted in the indigenous
+            peoples such as the Charrúa and Guarani, from which he drew
+            inspiration. In this work filled with foundational images of the
+            nation, different layers of symbolism are present.
+          </h1>
+        </div>
+      </div>
+
+      <div class="voice_memo w-full h-[44vh] mt-48">
+        <div class="memo p-16 flex items-center justify-between">
+          <div class="flex gap-3 items-center">
+            <i class="ri-play-circle-fill text-7xl"></i>
+            <h1 class="text-5xl">ADULTS</h1>
+            <span class="text-xl mb-3">3:59 min.</span>
+          </div>
+          <div>
+            <h2 class="capitalize text-[1.3vw]">
+              patricia lannes, educator's voice
+            </h2>
+          </div>
+        </div>
+
+        <div class="memo p-16 flex items-center justify-between">
+          <div class="flex gap-3 items-center">
+            <i class="ri-play-circle-fill text-7xl"></i>
+            <h1 class="text-5xl">ADULTS</h1>
+            <span class="text-xl mb-3">5:48 min.</span>
+          </div>
+          <div>
+            <h2 class="capitalize text-[1.3vw]">
+              Monica Michelena, Charrua Rep.
+            </h2>
+          </div>
+        </div>
+
+        <div class="memo p-16 flex items-center justify-between">
+          <div class="flex gap-3 items-center">
+            <i class="ri-play-circle-fill text-7xl"></i>
+            <h1 class="text-5xl">CHILDREN</h1>
+            <span class="text-xl mb-3">1:16 min.</span>
+          </div>
+          <div>
+            <h2 class="text-[1.3vw]">
+              Mriana Valdes, Arte y Educacion's Voice
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="w-full h-[95vh] flex flex-col justify-top items-center pt-[6%]"
+      >
+        <span class="h-[15vh] w-[1px] bg-[#B1B1B0]"></span>
+        <h1 class="w-[22%] text-4xl mt-10">
+          In the following section, hold the cursor down to reveal the complete
+          work.
+        </h1>
+        <i class="ri-add-circle-fill text-5xl mt-10"></i>
+        <img class="mt-10" src="./touch.svg" alt="" />
+
+        <span class="h-[5vh] w-[1px] relative z-10 bg-[#B1B1B0] mt-10"></span>
+
+        <svg
+          class="arrow"
+          width="42"
+          height="107"
+          viewBox="0 0 30 127"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          data-astro-cid-w3ajiqzu=""
+        >
+          <defs data-astro-cid-w3ajiqzu="">
+            <mask id="arrowMask" data-astro-cid-w3ajiqzu="">
+              <rect
+                x="0"
+                y="0"
+                width="30"
+                height="127"
+                fill="white"
+                data-astro-cid-w3ajiqzu=""
+              ></rect>
+            </mask>
+          </defs>
+          <path
+            d="M15 126.536C15 77.3301 15 0.536132 15 0.536132M15 126.536C15 117.036 0.999999 112.536 0.999999 112.536M15 126.536C15 117.036 29 112.536 29 112.536"
+            stroke="#FAFAFA"
+            mask="url(#arrowMask)"
+            data-astro-cid-w3ajiqzu=""
+          ></path>
+        </svg>
+      </div>
+
+      <div class="w-full h-[100vh] relative main">
+        
+          <img class="w-full h-full z-[0]" src="./scan-image.webp" alt="Full Screen Image">
+          <!-- <div class="overlay w-full h-full bg-white absolute top-0 z-[1]"></div> -->
+          <div class="circle z-[2] w-10 h-10  absolute top-0 left-0 bg-transform"></div>
+      </div>
+
+      <div class="w-full h-[100vh] p-5 mt-32">
+        <div class="overflow-hidden">
+            <h1
+            class="text-[8.9vw] font-[600] uppercase tracking-tighter leading-none histo"
+          >
+            HISTORICA
+          </h1>
+        </div>
+        <div class="overflow-hidden ">
+            <h1
+            class="text-[8.9vw] font-[600] uppercase tracking-tighter leading-none histo"
+          >
+           CONTEXT
+          </h1>
+        </div>
+        
+
+        <div class="w-full h-[30vh] flex relative mt-[14%]">
+          <h1
+            data-scroll
+            data-scroll-speed="-3"
+            data-scroll-direction="vertical"
+            class="text-3xl w-1/2 absolute"
+          >
+            (5)
+          </h1>
+          <h1 class="w-1/2 left-[50%] top-[-51%] text-3xl absolute">
+            At the time of the arrival of the Spaniards in the Río de la Plata
+            in the 16th century, the Charrúas occupied the area between the
+            Paraná River and the Uruguay River. Later, persecuted in their
+            settlements in Santa Fe, they moved towards the Banda Oriental and
+            are associated with the tribes of present-day Uruguay. The Charrúa
+            were an ethnic group living on the northern bank of the Río de la
+            Plata. They were the indigenous people encountered by the first
+            European explorers in the region. The pressure of European
+            colonization made them migrate northward, away from the coasts.
+            During the colonial period, they merged with other indigenous
+            peoples comprising the Charrúa macro-ethnic group, with whom they
+            had a direct kinship, thus forming a single cultural unit.
+          </h1>
+        </div>
+      </div>
+
+      <div data-scroll data-scroll-speed="0" class=" p-10 w-full h-[75vh] img-context overflow-hidden  ">
+        <img  class=" w-full h-full" src="./historical-context.webp" alt="">
+      </div>
+
+      <div class="videos w-full height-[70vh] p-10 mt-32">
+        <h1 class="text-3xl">(6) Realted videos</h1>
+        <div class="flex gap-3 mt-10 relative">
+            <img class="w-1/2 h-full"  src="https://i.ytimg.com/vi/gHEXk9WFXLM/maxresdefault.jpg">
+            </img>
+            <span
+              class="w-[3em] h-[3em] text-xl border-[1px] border-white rounded-full absolute flex items-center justify-center z-20 top-[50%] left-[23%] -translate-y-[57%]"
+              ><i class="ri-play-large-fill"></i
+            ></span>
+            <!-- <i class="ri-play-circle-line"></i> -->
+            <img class="w-1/2 h-full" src="https://i.ytimg.com/vi/aWdbqQ0xLs8/maxresdefault.jpg">
+            </img>
+            <span
+            class="w-[3em] h-[3em] text-xl border-[1px] border-white rounded-full absolute flex items-center justify-center z-20 top-[50%] right-[21%] -translate-y-[57%]
+            
+            "
+            ><i class="ri-play-large-fill"></i
+          ></span>
+            <!-- <i class="ri-play-circle-line"></i> -->
+        </div>
+
+      </div>
+
+     <div class="w-full h-[120vh] mt-32 p-5">
+        <h1 class="text-[8.9vw] font-[600] uppercase tracking-tighter leading-[8.5vw]">JUAN MANUEL<br> BLANES</h1>
+        <img class="w-[40vw] h-[45vw] relative left-[50%] -translate-x-[50%] mt-20" src="https://museos.arteyeducacion.org/_vercel/image?url=assets%2Fjuan-manuel-blanes.ZUljUEzx.jpg&w=1080&q=100" alt="">
+     </div>
+
+
+     <div data-scroll class="w-full h-[50vh] py-20 p-5 relative mt-32">
+        <div class="w-full h-[30vh] flex relative">
+          <h1
+            data-scroll
+            data-scroll-speed="-3"
+            data-scroll-direction="vertical"
+            class="text-3xl w-1/2 "
+          >
+          (7) Author
+          </h1>
+          <h1 class="w-1/2 left-[50%] top-[-32%] text-3xl">
+            (Montevideo, 1830 - Pisa, 1901) Uruguayan painter. In all his works, within the academicism of historical reconstructions and unlike European romantic painters, he sought intimate national values.
+            Considered one of the greatest artists of his country, Juan Manuel Blanes's academic work constitutes an important link between Uruguayan painting of the 19th century and that of the 20th century. Between 1860 and 1864, he studied in Paris, Rome, and Florence, acquiring a refined academic technique, primarily oriented towards naturalism.
+          </h1>
+        </div>
+      </div>
+
+
+
+      <div class="w-full h-[100vh] p-5 mt-32">
+        <h1
+          class="text-[8.9vw] font-[600] uppercase tracking-tighter leading-[8.5vw]"
+        >
+          OUR<br />INITIAIVE
+        </h1>
+
+        <div class="w-full h-[30vh] flex relative mt-[14%]">
+          <h1
+            data-scroll
+            data-scroll-speed="-3"
+            data-scroll-direction="vertical"
+            class="text-3xl w-1/2 absolute"
+          >
+            (8)
+          </h1>
+          <h1 class="w-1/2 left-[50%] top-[-51%] text-3xl absolute">
+            Our proposal aims to provide training to museum and art space agents across the country to approach works of art as generators of dialogues and debates situated in the here and now, and in connection with the reality of museum visitors.
+            For this, we rely on analysis, reflection, and dialogue from different contemporary, critical, and decolonial perspectives. We also draw support from various examples of mediation, different museum narratives, and trends in education linked to these. All of this with the primary goal of working practically on various strategies and methodologies to approach and empathize with audiences.
+          </h1>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="outro flex flex-col justify-center items-center">
+        <img class="w-[45vw] h-[65vh] bg-top relative" src="./outro.webp" alt="">
+      </div>
+      <h1 class="text-3xl relative left-1/2 -translate-x-[2%] -mt-20">Share</h1>
+      
+     
+
+
+
+      <footer class="w-full h-[10vh] flex items-center justify-between p-5 text-2xl">
+        <img src="https://museos.arteyeducacion.org/_vercel/image?url=assets%2Flogo-aye.br6DN3O0.svg&w=640&q=100" alt="">
+        <h1 class="ml-5">Made by ++hellohello</h1>
+        <div class="flex items-center gap-2">
+            <h1>Follow us</h1>
+            <i class="ri-instagram-line"></i>
+            <i class="ri-facebook-circle-line"></i>
+            <i class="ri-youtube-line"></i>
+        </div>
+
+      </footer>
+
+
+
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
